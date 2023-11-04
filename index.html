@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+
+    <title>Reflux HTML CSS Template</title>
+<!--
+Reflux Template
+https://templatemo.com/tm-531-reflux
+-->
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="assets/css/templatemo-style.css" />
+    <link rel="stylesheet" href="assets/css/owl.css" />
+    <link rel="stylesheet" href="assets/css/lightbox.css" />
+  <!-------------------------------------------------------------->
+    <style>
+      ul.a {
+        list-style-type: disc;
+      }
+      ul.a li.b{
+        display: block;
+      }
+      .sam {
+      list-style: circle;
+      margin: 0;
+      padding: 0;
+      }
+      .sam li {
+      display: list-item;
+      padding: 10px;
+      }
+      .venue {
+      font-weight: bold;
+      }
+      div.item {
+      margin-left: 5px;
+      margin-bottom: 15px;
+      }
+      a.blanklnk {
+      text-decoration: none;
+      color: inherit;
+      }
+      a.dotted-link {
+      border-bottom: 1px dotted #778492;
+      color: #778492;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div id="page-wraper">
+      <!-- Sidebar Menu -->
+      <div class="responsive-nav">
+        <i class="fa fa-bars" id="menu-toggle"></i>
+        <div id="menu" class="menu">
+          <i class="fa fa-times" id="menu-close"></i>
+          <div class="container">
+            <div class="image">
+              <a href="#"><img src="assets/images/profilepic.jpg" alt="" /></a>
+            </div>
+            <div class="author-content">
+              <h4>Emmanuel Sam</h4>
+              <span>Research Fellow</span>
+            </div>
+            <nav class="main-nav" role="navigation">
+              <ul class="main-menu">
+                <!--class = "showSect"-->
+                <li><a class = "showSect" href="#section1">About Me</a></li>
+                <li><a class = "showSect" href="#section2">Publications</a></li>
+                <!-- <li><a href="#section3">My Work</a></li> -->
+                <li><a class = "showcv" href='publications/analysiESN_RecurrPlot.pdf'>My &nbsp;CV</a></li>
+                <!-- <li><a href="#section4">My &nbsp;CV</a></li> -->
+              </ul>
+            </nav>
+            <div class="social-network">
+              <ul class="soial-icons">
+                <li>
+                  <a href="https://fb.com/templatemo"
+                    ><i class="fa fa-facebook"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-linkedin"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-dribbble"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-rss"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div class="copyright-text">
+              <p>Copyright 2019 Reflux Design</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="section about-me" data-section="section1">
+        <div class="container">
+          <div class="section-heading">
+            <h2>About Me</h2>
+            <div class="line-dec"></div>
+            <p >
+              I am a PhD Research Fellow in Informatics at the <a href = "https://www.uib.no/en/rg/ml/130730/machine-learning-group">University of Bergen (UiB)</a>, 
+              supervised by <a href = "https://www.uib.no/en/persons/Nello.Blaser">Nello Blaser</a>. &nbsp;My research focuses on the Parameterized Complexity of computing
+              Lineal Topologies (depth-first spanning trees) motivated by possible applications in graph drawing and data visualization.  &nbsp;I have a previous research
+              experience in Machine Learning gained through my participation in a series of summer schools in computer science organized jointly by
+              <a href = "https://ucc.edu.gh/programmes/doctor-philosophy-awbc%E2%80%94academics-without-borders-canada">University of Cape Coast (UCC), Ghana</a>, and 
+              <a href ="https://ucc.edu.gh/programmes/doctor-philosophy-awbc%E2%80%94academics-without-borders-canada"> Academic without Borders, Canada 
+              (AWBC)</a>.  &nbsp;I studied the predictability of the Echo State Network Model on various benchmark and real-time sequential data sets and analyzed the network 
+              dynamics using recurrence plots.
+            </p>
+            <p>
+              Before I joined UiB, I was a Lecturer in Information Technology (2010 - 2019) at <a href ="https://wiuc-ghana.edu.gh/"> Wisconsin International University College , Ghana</a>.
+              &nbsp;Besides teaching and mentoring students, I was involved in end-of-semester Data Analytics aimed at improving the quality 
+              of teaching and learning.
+            </p>
+            
+          </div>
+
+          <!-- <div class = "subsection-heading"> 
+          <h2>News</h2>
+          <div class="line-dec"></div>
+          
+          </div> -->
+
+          <!-- <div class="left-image-post">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="left-image">
+                  <img src="assets/images/FCT.JPG" alt="" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="right-text">
+                  <h4>Talks</h4>
+                  <ul class = "sam">
+                    <li >I participated in the 2023 Summer School on Algorithm Engineering for Network Problems at <a href ="https://hpi.de/ae2023/">Hasso Plattner Institute in Potsdam</a></li>
+                    <li> I gave a talk on Kernelization for finding lineal topologies with many or few leaves at 
+                    <a href = "https://www.uni-trier.de/en/universitaet/fachbereiche-faecher/fachbereich-iv/faecher/informatikwissenschaften/professuren/theoretische-informatik/research/conferences-and-workshops/fct-2023"> FCT 2023 </a></li>
+                  </ul>
+                  <div class="white-button">
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <div class="right-image-post">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="left-text">
+                  <!-- <h3>Talks</h3> -->
+                  <ul class = "sam">
+                    <li >I participated in the <a href ="https://hpi.de/ae2023/"> 2023 Summer School on Algorithm Engineering for Network Problems</a> at Hasso Plattner Institute in Potsdam, Germany</li>
+                    <li> My talk on Kernelization for finding lineal topologies with many or few leaves at 
+                      <a href ="https://www.uni-trier.de/en/universitaet/fachbereiche-faecher/fachbereich-iv/faecher/informatikwissenschaften/professuren/theoretische-informatik/research/conferences-and-workshops/fct-2023">FCT 2023</a>
+                      (<a href="presentations/FCT2023_conference_final.pdf">slides </a>) | Algorithms group Seminar, UiB (<a href="presentations/KernelforLT_friday_seminar.pdf"> slides</a>)</li>
+                    
+                    <li> My talk on the Parameterized Complexity of Lineal Topologies (depth-first spanning trees) of Finite Graphs: Number of leaves at 
+                      <a href = "https://easyconferences.eu/ciac2023/program/">CIAC 2023 </a>(<a href ="presentations/CIAC2023_conference_final.pdf" >slides</a>) | Algorithms group Seminar, UiB 
+                      (<a href = "presentations/PCofLTs_friday_seminar.pdf">slides</a>)</li>
+                    <li>I was at the <a href = "https://www.sintef.no/projectweb/geilowinterschool/2023-23rd-geilo-winter-school/"> 2023 Winter School on Computational Statics</a> at Geilo, Norway</li> 
+                  </ul>
+                  <!-- <div class="white-button">
+                    <a href="#">Read More</a>
+                  </div> -->
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="right-image">
+                  <img src="assets/images/hasso-platttner-inst.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <ul class = "sam">
+            <li> I participated in the Northen Lights Deep Learning Conference <a href="https://www.nldl.org/winter-school2023">(NLDL) 2023 Winter School</a>
+            at University of Tromø (UiT).</li>
+          </ul>
+
+        </div>
+      </section>
+
+      <section class="section my-services" data-section="section2">
+        <div class="container">
+          <div class="section-heading" style ="padding: 20px 45px;">
+            <h2>Publications</h2>
+            <div class="line-dec"></div>
+          </div>
+          <div>
+            <ul class ="sam">
+                <li>
+                  <div><span style='font-size:1.25em; margin-bottom:5px'>Kernelization for Finding Lineal Topologies (Depth-First Spanning Trees) with Many or Few Leaves</span><br>
+                    <em>with</em> &nbsp;<a class='blanklnk' href='https://benjaminbergougnoux.github.io/#publilist'>Benjamin Bergougnoux</a>,
+                     <a class='blanklnk' href='https://www.uib.no/en/persons/Petr.Golovach'>Petr A. Golovach</a>, and
+                     <a class='blanklnk' href='https://blasern.github.io/index.html'>Nello Blaser</a>
+                   <br>
+                    <a href='https://link.springer.com/chapter/10.1007/978-3-031-43587-4_28' ><span style='color:#FF7000'>FCT 2023</span></a>
+                    | <a class='dotted-link' href='https://doi.org/10.48550/arXiv.2307.00362'>arXiv</a>
+                    | <a class='dotted-link' href='bibfiles/sam2023a.html'>bibtex</a>
+                  </div>
+                </li>
+                <li>
+                  <div><span style='font-size:1.25em; margin-bottom:5px'>On the Parameterized Complexity of the
+                    Structure of Lineal Topologies (Depth-First Spanning Trees) of Finite Graphs: The Number of Leaves</span><br>
+                    <em>with</em> &nbsp;<a class='blanklnk' href='https://www.uib.no/en/persons/Michael.Ralph.Fellows'>Michael Fellows</a>,
+                     <a class='blanklnk' href='https://www.uib.no/en/persons/Petr.Golovach'>Petr A. Golovach</a>, and 
+                     <a class='blanklnk' href='https://scholar.google.com.au/citations?user=k5StrAoAAAAJ&hl=en'>Frances Rosamond</a>
+                   <br>
+                    <a href='https://link.springer.com/chapter/10.1007/978-3-031-30448-4_25' ><span style='color:#FF7000'>CIAC 2023</span></a>
+                    | <a class='dotted-link' href='publications/On_the_PC_of_LTs.pdf'>pdf</a>
+                    | <a class='dotted-link' href='bibfiles/sam2023b.html'>bibtex</a>
+                  </div>
+                </li>
+                <li>
+                  <div><span style='font-size:1.25em; margin-bottom:5px'>Analysis of Tensor-Based Image Segmentation using Echo State Networks</span><br>
+                    <em>with</em> &nbsp;<a  class='blanklnk' > Charles Donkor</a>, and
+                     <a class='blanklnk' href='https://www.dtu.dk/english/person/sebastian-basterrech?id=204241&entity=publicationsOrcid'>Sebastian Basterrech</a>
+                   <br>
+                    <a href='https://link.springer.com/chapter/10.1007/978-3-030-14984-0_36' ><span style='color:#FF7000'>MESAS 2018</span></a>
+                    | <a class='dotted-link' href='publications/analysis_tensor-based_image_seg.pdf'>pdf</a>
+                    | <a class='dotted-link' href='bibfiles/analysisESN_imageSeg.html'>bibtex</a>
+                  </div>
+                </li>
+                <li>
+                  <div><span style='font-size:1.25em; margin-bottom:5px'>Analysis of the Dynamics of the Echo State Network model using Recurrence Plot</span><br>
+                    <em>with</em> &nbsp;<a class='blanklnk' href='https://www.dtu.dk/english/person/sebastian-basterrech?id=204241&entity=publicationsOrcid'>Sebastian Basterrech</a>, and
+                    <a  class='blanklnk' href ='https://scholar.google.com/citations?user=liiRX5AAAAAJ&hl=en'>Pavel Kromer</a>
+                   <br>
+                    <a href='https://link.springer.com/chapter/10.1007/978-3-030-01818-4_35' ><span style='color:#FF7000'>IITI 2018</span></a>
+                    | <a class='dotted-link' href='publications/analysiESN_RecurrPlot.pdf'>pdf</a>
+                    | <a class='dotted-link' href='bibfiles/analysisESN_recurrPlot.html'>bibtex</a>
+                  </div>
+                </li>
+                <li>
+                  <div><span style='font-size:1.25em; margin-bottom:5px'>Prediction of Facebook Post Metrics using Machine Learning</span><br>
+                    <em>with</em> &nbsp;<a class='blanklnk' href='https://www.dtu.dk/english/person/sebastian-basterrech?id=204241&entity=publicationsOrcid'>Sebastian Basterrech</a>,
+                    <a  class='blanklnk' href ='https://scholar.google.ru/citations?user=N3RvSC0AAAAJ&hl=ru'>Sergey Yarushev</a>, and 
+                    <a  class='blanklnk' href ='https://www.researchgate.net/profile/Alexey-Averkin'>Alexey Averkin</a>
+                   <br>
+                    <a href='https://scm.etu.ru/2018/ru/' ><span style='color:#FF7000'>SCM 2018</span></a>
+                    | <a class='dotted-link' href='https://doi.org/10.48550/arXiv.1805.05579'>arXiv</a>
+                  </div>
+                </li>
+            </ul>
+          </div>
+          <!-- <div class="row">
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="first-service-icon service-icon"></div>
+                <h4>HTML5 &amp; CSS3</h4>
+                <p>
+                  Phasellus non convallis dolor. Integer tempor hendrerit arcu
+                  at bibendum. Sed ac ante non metus vehicula congue quis eget
+                  eros.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="second-service-icon service-icon"></div>
+                <h4>Creative Ideas</h4>
+                <p>
+                  Proin lacus massa, eleifend sed fermentum in, dignissim vel
+                  metus. Nunc accumsan leo nec felis porttitor, ultricies
+                  faucibus purus mollis.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="third-service-icon service-icon"></div>
+                <h4>Easy Customize</h4>
+                <p>
+                  Integer suscipit condimentum aliquet. Nam quis risus metus.
+                  Nullam faucibus quam eget arcu pretium tincidunt. Nam libero
+                  dui.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="fourth-service-icon service-icon"></div>
+                <h4>Admin Dashboard</h4>
+                <p>
+                  Vivamus et dui a massa venenatis fringilla. Proin lacus massa,
+                  eleifend sed fermentum in, dignissim vel metus. Nunc accumsan
+                  leo nec felis porttitor.
+                </p>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </section>
+
+      <!-- <section class="section my-work" data-section="section3">
+        <div class="container">
+          <div class="section-heading">
+            <h2>My Work</h2>
+            <div class="line-dec"></div>
+            <span
+              >Aenean sollicitudin ex mauris, lobortis lobortis diam euismod sit
+              amet. Duis ac elit vulputate, lobortis arcu quis, vehicula
+              mauris.</span
+            >
+          </div>
+          <div class="row">
+            <div class="isotope-wrapper">
+              <form class="isotope-toolbar">
+                <label
+                  ><input
+                    type="radio"
+                    data-type="*"
+                    checked=""
+                    name="isotope-filter"
+                  />
+                  <span>all</span></label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    data-type="people"
+                    name="isotope-filter"
+                  />
+                  <span>people</span></label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    data-type="nature"
+                    name="isotope-filter"
+                  />
+                  <span>nature</span></label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    data-type="animals"
+                    name="isotope-filter"
+                  />
+                  <span>animals</span></label
+                >
+              </form>
+              <div class="isotope-box">
+                <div class="isotope-item" data-type="nature">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/portfolio-01.jpg"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="assets/images/portfolio-01.jpg"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>First Title</h4>
+                      <span>free to use our template</span>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="people">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/portfolio-02.jpg"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="assets/images/portfolio-02.jpg"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>Second Title</h4>
+                      <span>please tell your friends</span>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="animals">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/portfolio-03.jpg"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="assets/images/portfolio-03.jpg"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>Item Third</h4>
+                      <span>customize anything</span>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="people">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/portfolio-04.jpg"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="assets/images/portfolio-04.jpg"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>Item Fourth</h4>
+                      <span>Re-distribution not allowed</span>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="nature">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/portfolio-05.jpg"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="assets/images/portfolio-05.jpg"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>Fifth Awesome</h4>
+                      <span>Ut sollicitudin risus</span>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="animals">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/portfolio-06.jpg"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="assets/images/portfolio-06.jpg"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>Awesome Sixth</h4>
+                      <span>Donec eget massa ante</span>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+<!-- 
+      <section class="section contact-me" data-section="section4">
+        <div class="container">
+          <div class="section-heading" style ="padding: 20px 45px;">
+            <h2>Curriculum Vitae</h2>
+            <div class="line-dec"></div>
+            <span
+              >Fusce eget nibh nec justo interdum condimentum. Morbi justo ex,
+              efficitur at ante ac, tincidunt maximus ligula. Lorem ipsum dolor
+              sit amet, consectetur adipiscing elit.</span
+            >
+          </div>
+          <object
+          data="/publications/analysiESN_RecurrPlot.pdf" type="application/pdf" width="100%" height="700px">
+          </object> 
+          <div class="row">
+            <div class="right-content">
+              <div class="container">
+                <form id="contact" action="" method="post">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <fieldset>
+                        <input
+                          name="name"
+                          type="text"
+                          class="form-control"
+                          id="name"
+                          placeholder="Your name..."
+                          required=""
+                        />
+                      </fieldset>
+                    </div>
+                    <div class="col-md-6">
+                      <fieldset>
+                        <input
+                          name="email"
+                          type="text"
+                          class="form-control"
+                          id="email"
+                          placeholder="Your email..."
+                          required=""
+                        />
+                      </fieldset>
+                    </div>
+                    <div class="col-md-12">
+                      <fieldset>
+                        <input
+                          name="subject"
+                          type="text"
+                          class="form-control"
+                          id="subject"
+                          placeholder="Subject..."
+                          required=""
+                        />
+                      </fieldset>
+                    </div>
+                    <div class="col-md-12">
+                      <fieldset>
+                        <textarea
+                          name="message"
+                          rows="6"
+                          class="form-control"
+                          id="message"
+                          placeholder="Your message..."
+                          required=""
+                        ></textarea>
+                      </fieldset>
+                    </div>
+                    <div class="col-md-12">
+                      <fieldset>
+                        <button type="submit" id="form-submit" class="button">
+                          Send Message
+                        </button>
+                      </fieldset>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </section>
+    </div>
+
+    <!-- Scripts -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+      //according to loftblog tut
+      $(".main-menu li:first").addClass("active");
+
+      var showSection = function showSection(section, isAnimate) {
+        var direction = section.replace(/#/, ""),
+          reqSection = $(".section").filter(
+            '[data-section="' + direction + '"]'
+          ),
+          reqSectionPos = reqSection.offset().top - 0;
+
+        if (isAnimate) {
+          $("body, html").animate(
+            {
+              scrollTop: reqSectionPos
+            },
+            800
+          );
+        } else {
+          $("body, html").scrollTop(reqSectionPos);
+        }
+      };
+
+      var checkSection = function checkSection() {
+        $(".section").each(function() {
+          var $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+          if (topEdge < wScroll && bottomEdge > wScroll) {
+            var currentId = $this.data("section"),
+              reqLink = $("a").filter("[href*=\\#" + currentId + "]");
+            reqLink
+              .closest("li")
+              .addClass("active")
+              .siblings()
+              .removeClass("active");
+          }
+        });
+      };
+
+      // $(".main-menu").on("click", "a", function(e) {
+      //   e.preventDefault();
+      //   showSection($(this).attr("href"), true);
+      // });
+      $(".main-menu").on("click", "a.showSect", function(e) {
+        e.preventDefault();
+        showSection($(this).attr("href"), true);
+      });
+
+      $(window).scroll(function() {
+        checkSection();
+      });
+
+      $(".main-menu").on("click", "a.showcv", function(e) {
+        e.preventDefault();
+        location.href = $(this).attr("href")
+      });
+    </script>
+  </body>
+</html>
